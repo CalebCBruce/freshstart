@@ -7,8 +7,11 @@ git init > create a git file in your local folder
 git remote -v > show the connected remote repo
 
 git add . > add all the files to a cache 
+git status > check what we added 
 
 git commit -m 'message' > commit 
 
-git push origin main
+git push origin master > push the commits to the repo's master branch
+
+
 
