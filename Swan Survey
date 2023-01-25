@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <link rel='stylesheet' href
+  ='styles.css'>
+<head>
+<body>
+  <h1 id='title'>Fill out this survey!</h1>
+  <p id='description'>
+    Think about birds. Now think about large birds, but not too large. Maybe... a swan. Now think about think about the strength in your arms and the feel of your legs. Pause, think some more. Now you are ready, proceed.
+  </p>
+
+  <form id='survey-form' class='form1'>
+    <div class='form1'>
+      <label for='name-label' id='name-label'> Your name:</label>
+      <input type='text' required name='name-label' id='name' placeholder='What are you called?'>
+    </div>
+
+    <div>
+      <label for='email-label' id='email-label'> Your email:</label>
+      <input type='email' id='email' name='email-label' required placeholder='An email you use.'>
+    </div>
+
+    <div>
+      <label for='nuber-label' id='number-label'> How many swans could you defeat in battle?</label>
+      <input type='number' name='number' id='number' min='1' max='12000' required placeholder='maybe 97?'>
+    </div>
+
+    <div>
+      <label for='dropdown'></label> What weapon would you choose?
+      <select id='dropdown' name='dropdown'>
+        <option value='gladius'>gladius</option>
+        <option value='stilleto'>stilleto</option>
+        <option value='push knife'>push knife</option>
+      </select>
+    </div>
+
+    <div>
+      <p>Are you afraid of swans?</p>
+      <input type='radio' id='yes' name='radio' value='yes'>
+      <label id='yes'>Yes.</label><br>
+      <input type='radio' id='no' name='radio' value='no'>
+      <label id='Who'>No.</label><br>
+      <input type='radio' id='Who' name='radio' value='who'>
+      <label id='who'>Who's to say?</label><br>
+    </div>
+
+    <div>
+      <p>What is your experience with swans?</p>
+      <input type='checkbox' id='seen' name='checkboxtime' value='seen'>
+      <label id='seen'>I've seen a swan.</label><br>
+      <input type='checkbox' id='smell' name='checkboxtime' value='smell'>
+      <label id='smell'>I've smelled a swan.</label><br>
+      <input type='checkbox' id='hear' name='checkboxtime' value='hear'>
+      <label id='hear'>I've heard a swan.</label><br>
+      <input type='checkbox' id='touch' name='checkboxtime' value='touch'>
+      <label id='touch'>I've touched a swan.</label><br>
+    </div>
+
+    <div>
+      <p><label for='textarea1'>What is your plan for the rest of your natural life?</label></p>
+      <textarea id='textarea1' name='textarea1' rows='5' cols='40' placeholder='IDK, play fallout 3 until I die of starvation or swan attack.'></textarea>
+    </div><br>
+    <input type='submit' id='submit' value='submit'>
+    </form>
+  </body>
+</html>
+
+
+
+
+
+
+body {
+  background-color: rgb(140,180,255)
+}
+
+h1 {
+
+background-color: rgb(100,0,100);
+ color: white;
+text-align:center;
+}
